@@ -35,12 +35,11 @@ $(() => {
 
   // MOBILE TOGGLE
 
-  if ($(window).width() <= 600) {
+  if ($(window).width() <= 700) {
     $('#mobileView').show()
     $('.introbox').hide()
     $('.websec').hide()
   } else {
-    $('.introbox').show()
     $('#mobileView').hide()
   }
 

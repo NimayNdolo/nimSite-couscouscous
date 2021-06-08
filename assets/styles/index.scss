@@ -52,6 +52,8 @@ $IBM: 'IBM Plex Mono', monospace;
   .section1 {
     border-bottom: white dashed 5px;
     height: 300px;
+    margin: auto;
+    width: 100%;
   }
 
   .section2 {
@@ -59,10 +61,15 @@ $IBM: 'IBM Plex Mono', monospace;
     height: 300px;
   }
 
-  .mobileBody {
+  .mobileView {
     background: rgb(251,177,219);
     background: linear-gradient(100deg, rgba(251,177,219,1) 0%, rgba(177,214,251,1) 100%);
     background-size: 1000%;
+  }
+
+  .video {
+    margin: auto;
+    width: 100%;
   }
 }
 
@@ -155,7 +162,7 @@ a:hover {
 
 .navbubble {
   margin-left: 8%;
-  margin-top: -12%;
+  margin-top: -1%;
 }
 
 .navbar {
