@@ -1,103 +1,124 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>nimayNdolo</title>
+      <title>nimayNdolo</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-        <!-- OPENING PAGE CONTAINING DIV W/TWO IMAGES -->
-        <div>
-            <img>
-            <img>
-        </div>
+      <!-- OPENING PAGE CONTAINING DIV W/TWO IMAGES -->
+      <!--
+      <div class="enterbox">
+          <img src="public/nNdoloCard11.JPG" width="525" class="card1">
+          <br>
+          <br>
+          <img src="public/nNdoloCard22.JPG" width="525" class="card2">
+      </div>
+    -->
 
-        <!-- NAVBAR -->
-        <div>
-            <ul class="navbar">
-                <a><li>home</li></a>
-                <a><li>work</li></a>
-                <a><li>contact</li></a>
-                <a><li>mediaKit</li></a>
-                <a><li>cv</li></a>
-                <br>
-                <br>
-                <br>
-                <a><li>github</li></a>
-                <a><li>linkedin</li></a>
-            </ul>
-        </div>
+    <!-- TITLE -->
 
-        <!-- LANDING PAGE CONTAINING NAV & INTRO VIDEO,  -->
-        <div>
-            <p>Nimay Ndolo is an Atlanta-based software developer and content creator</p>
-            <iframe></iframe>
-        </div>
+    <p class="title">nimayNdolo</p>
 
-        <!-- WORK PAGE CONTAINING PROJECTS, FILMS, & OTHER MEDIA -->
-        <div>
-            <img>
-            <ul>
-                <a><li>web</li></a>
-                <a><li>film</li></a>
-                <a><li>listen</li></a>
-                <a><li>write</li></a>
-            </ul>
-        </div>
+    <!-- NAVBAR -->
+      <div>
+        <ul class="navbar">
+            <a id="home" href=""><li>home</li></a>
+            <a id="work" href=""><li>work</li></a>
+            <a id="contact" href=""><li>contact</li></a>
+            <a id="cv" href=""><li>cv</li></a>
+            <br>
+            <br>
+            <br>
+            <a id="github" href=""><li>github</li></a>
+            <a id="linkedin" href=""><li>linkedIn</li></a>
+        </ul>
+    </div>
 
-                <!-- WEB SUBPAGE -->
-                <div>
-                    <a><img></a>
-                    <a><img></a>
-                    <a><img></a>
-                    <a><img></a>
-                </div>
+      <!-- LANDING PAGE CONTAINING NAV & INTRO VIDEO,  -->
+      <div class="introbox">
+          <div class="square"></div>
+            <iframe class="introVid" width="840" height="473" src="https://www.youtube.com/embed/JR_zVNPt3sU" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
 
-                <!-- FILM SUBPAGE -->
-                <div>
-                    <ul>
-                        <a><li>Freeboys</li></a>
-                        <a><li>Cultdance</li></a>
-                        <a><li>Jane, Jean, John, & Jesus Make an Experimental Song</li></a>
-                        <a><li>We’re young  & free and we dance  in parks under trees</li></a>
-                        <a><li>Meet Abbie</li></a>
-                        <a><li>Sister Slice</li></a>
-                        <a><li>Game Time</li></a>
-                    </ul>
+          <p class="bio">Nimay Ndolo is an Atlanta-based software developer and content creator</p>
 
-                    <div class="filmbox">
-                        <iframe class="jjjj" width="560" height="315" src="https://www.youtube.com/embed/ph_J8hv-RfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="lmao" width="560" height="315" src="https://www.youtube.com/embed/Cf1uPoQ7gJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="abbie" width="560" height="315" src="https://www.youtube.com/embed/FZ721c_WJmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="sister" width="560" height="315" src="https://www.youtube.com/embed/qz-cu9cCP_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="freeboys" width="560" height="315" src="https://www.youtube.com/embed/fg4Bd7gaLWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="cultdance" width="560" height="315" src="https://www.youtube.com/embed/jjkPbjM1js8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe class="gametime" width="560" height="315" src="https://www.youtube.com/embed/1lHQ9gIIzDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-            </div>
+      </div>
 
-            <!-- LISTEN SUBPAGE -->
-            <div>
-                <img>
-            </div>
+        <!-- WEB SUBPAGE -->
+        <div class="websec">
+        <div class="galleryGrid">
+            <div><a href="https://h3dra.github.io/devhead-client/#/"><img src="public/projNameDevhead.png" width="418" height="214"></a></div>
+            <div><a href="https://nimayndolo.github.io/wishListApp-client/"><img src="public/projNameWishlisty.png" width="418" height="214"></a></div>
+            <div><a href="https://nimayndolo.github.io/ticTacToe/"><img src="public/projNameTicTaccTeaux.png" width="418" height="214"></a></div>
+            <div><a href="https://nimayndolo.github.io/stackaClient/"><img src="public/projNameStacka.png" width="418" height="214"></a></div>
+          </div>
+          </div>
 
-            <!-- WRITE SUBPAGE -->
-            <div>
-                <a href="https://nimayndolo.medium.com/when-am-i-allowed-to-call-myself-a-software-developer-74f4f843d9df">When am I allowed to call myself a software developer?</a>
-                <a></a>
-                <a></a>
-            </div>
-        
-        <!-- CONTACT PAGE INCLUDING CONTACT FORM -->
-        <div></div>
+      <!-- WORK PAGE CONTAINING PROJECTS, FILMS, & OTHER MEDIA -->
+      <div class="subnav">
+          <img>
+          <ul>
+              <a><li>web</li></a>
+              <a><li>film</li></a>
+              <a><li>listen</li></a>
+              <a><li>write</li></a>
+          </ul>
+      </div>
 
-        <!-- MEDIA KIT DOWNLOAD LINK/PAGE -->
-        <div></div>
+              <!-- FILM SUBPAGE -->
+              <div class="filmsec">
+                  <ul>
+                      <a><li>Freeboys</li></a>
+                      <a><li>Cultdance</li></a>
+                      <a><li>Jane, Jean, John, & Jesus Make an Experimental Song</li></a>
+                      <a><li>We’re young  & free and we dance  in parks under trees</li></a>
+                      <a><li>Meet Abbie</li></a>
+                      <a><li>Sister Slice</li></a>
+                      <a><li>Game Time</li></a>
+                  </ul>
 
-        <!-- CV DOWNLOAD LINK/PAGE -->
-        <div></div>
-        
-    </body>
+                  <div class="filmbox">
+                      <iframe class="jjjj" width="560" height="315" src="https://www.youtube.com/embed/ph_J8hv-RfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="lmao" width="560" height="315" src="https://www.youtube.com/embed/Cf1uPoQ7gJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="abbie" width="560" height="315" src="https://www.youtube.com/embed/FZ721c_WJmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="sister" width="560" height="315" src="https://www.youtube.com/embed/qz-cu9cCP_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="freeboys" width="560" height="315" src="https://www.youtube.com/embed/fg4Bd7gaLWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="cultdance" width="560" height="315" src="https://www.youtube.com/embed/jjkPbjM1js8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe class="gametime" width="560" height="315" src="https://www.youtube.com/embed/1lHQ9gIIzDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+          </div>
 
-    <footer>
+          <!-- LISTEN SUBPAGE -->
+          <div class="hearsec">
+              <img>
+          </div>
 
-    </footer>
+          <!-- WRITE SUBPAGE -->
+          <div class="writesec">
+              <a href="https://nimayndolo.medium.com/when-am-i-allowed-to-call-myself-a-software-developer-74f4f843d9df">When am I allowed to call myself a software developer?</a>
+              <a></a>
+              <a></a>
+          </div>
+      
+      <!-- CONTACT PAGE INCLUDING CONTACT FORM -->
+      <div></div>
+
+      <!-- MEDIA KIT DOWNLOAD LINK/PAGE -->
+      <div></div>
+
+      <!-- CV DOWNLOAD LINK/PAGE -->
+      <div></div>
+
+      </body>
+
+  <footer>
+
+  </footer>
 </html>
