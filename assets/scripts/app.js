@@ -9,6 +9,19 @@ $(() => {
   $('.hearsec').hide()
   $('.writesec').hide()
 
+  // NAVBAR ACTIONS
+  $('#home').on('click', function (event) {
+    event.preventDefault()
+    $('.introbox').show()
+    $('.websec').hide()
+  })
+
+  $('.title').on('click', function (event) {
+    event.preventDefault()
+    $('.introbox').show()
+    $('.websec').hide()
+  })
+
   $('#work').on('click', function (event) {
     event.preventDefault()
     $('.introbox').hide()
