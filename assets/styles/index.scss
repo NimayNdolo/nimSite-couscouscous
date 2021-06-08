@@ -37,6 +37,8 @@ $IBM: 'IBM Plex Mono', monospace;
   }
 
   .mobileTitle {
+    display: flex;
+    justify-content: space-around;
     font-size: 5rem;
     margin-top: -370px;
     font-family: 'modern_lcd-7regular';
@@ -50,18 +52,22 @@ $IBM: 'IBM Plex Mono', monospace;
   }
 
   .section1 {
-    border-bottom: white dashed 5px;
+    display: flex;
+    justify-content: space-around;
     height: 300px;
     margin: auto;
     width: 100%;
   }
 
   .section2 {
-    border-bottom: white dashed 5px;
+    display: flex;
+    justify-content: space-around;
     height: 300px;
   }
 
   .mobileView {
+    display: flex;
+    justify-content: center;
     background: rgb(251,177,219);
     background: linear-gradient(100deg, rgba(251,177,219,1) 0%, rgba(177,214,251,1) 100%);
     background-size: 1000%;
@@ -70,6 +76,44 @@ $IBM: 'IBM Plex Mono', monospace;
   .video {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mobileNav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'modern_lcd-7regular';
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .workPageHeader {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'modern_lcd-7regular';
+    font-size: 25px;
+    color: white;
+    float: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+
+  .stackPageHeader {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'modern_lcd-7regular';
+    font-size: 25px;
+    color: white;
+    float: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+  }
+
+  .mobileBio {
+    display: flex;
+    justify-content: center;
+    color: white;
   }
 }
 
