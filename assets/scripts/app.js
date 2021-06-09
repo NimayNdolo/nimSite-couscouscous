@@ -6,8 +6,9 @@ $(() => {
 
   // GENERAL
 
-  $('.subnav').hide()
   $('.websec').hide()
+  $('.stacknav').hide()
+  $('.subnav').hide()
   $('.filmsec').hide()
   $('.hearsec').hide()
   $('.writesec').hide()
@@ -25,12 +26,23 @@ $(() => {
     event.preventDefault()
     $('.introbox').show()
     $('.websec').hide()
+    $('.stacknav').hide()
   })
 
   $('#work').on('click', function (event) {
     event.preventDefault()
     $('.introbox').hide()
     $('.websec').show()
+    $('.stacknav').hide()
+  })
+
+  $('#stack').on('click', function (event) {
+    event.preventDefault()
+    $('.stacknav').show()
+    $('.introbox').hide()
+    $('.websec').hide()
+    $('.stackGif').trigger('reset')
+
   })
 
   // MOBILE TOGGLE
@@ -39,6 +51,7 @@ $(() => {
     $('#mobileView').show()
     $('.introbox').hide()
     $('.websec').hide()
+    $('.linkNav').hide()
   } else {
     $('#mobileView').hide()
   }

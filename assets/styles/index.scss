@@ -106,7 +106,6 @@ $IBM: 'IBM Plex Mono', monospace;
     float: center;
     text-decoration: underline;
     text-decoration-style: dashed;
-    margin-top: 630px;
   }
 
   .mobileBioBox {
@@ -117,6 +116,13 @@ $IBM: 'IBM Plex Mono', monospace;
   .mobileBio {
     color: white;
     text-align: center;
+  }
+
+  .mobileStackGif {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -165,6 +171,14 @@ a:hover {
   text-decoration: none;
 }
 
+a:active {
+
+}
+
+#work:hover {
+  color: rgb(176, 255, 0);
+}
+
 .title {
   font-family: 'modern_lcd-7regular';
   font-size: 120px;
@@ -175,7 +189,7 @@ a:hover {
 
 .introbox {
   margin-left: 45%;
-  margin-top: -45%;
+  margin-top: -47%;
 }
 
 .introVid {
@@ -209,7 +223,7 @@ a:hover {
 
 .navbubble {
   margin-left: 8%;
-  margin-top: -1%;
+  margin-top: -3%;
 }
 
 .navbar {
@@ -221,6 +235,16 @@ a:hover {
   margin-left: 5%;
   color: white;
   font-family: 'modern_lcd-7regular';
+}
+
+.linkNav {
+  display: flex;
+  margin-left: 120px;
+  justify-content: space-between;
+  font-family: 'modern_lcd-7regular';
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 300px;
 }
 
 .websec {
@@ -246,4 +270,9 @@ a:hover {
     float: right;
     margin-top: -800px;
     padding-left: 100px;
+  }
+
+  .stacknav {
+    float: right;
+    margin-top: -780px;
   }
