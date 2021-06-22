@@ -169,10 +169,13 @@ li {
 
 a:hover {
   text-decoration: none;
-  color: black;
 }
 
 a:active {
+
+}
+
+#work:hover {
   color: rgb(176, 255, 0);
 }
 
@@ -186,7 +189,7 @@ a:active {
 
 .introbox {
   margin-left: 45%;
-  margin-top: -49%;
+  margin-top: -47%;
 }
 
 .introVid {
@@ -195,10 +198,8 @@ a:active {
 
 .bio {
   margin-top: 25px;
-  margin-left: -40px;
+  margin-left: 100px;
   color: white;
-  text-align: center;
-
 }
 
 .square {
